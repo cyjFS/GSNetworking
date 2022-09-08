@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A53DF8D5363962EB5F7171B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0A53DF8D5363962EB5F7171B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4D3DA935D4C7D7E8B573B8F8 /* Pods-GSNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSNetworking_Tests.release.xcconfig"; path = "Target Support Files/Pods-GSNetworking_Tests/Pods-GSNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5FE20425DA5194C9F2A8BC0F /* Pods_GSNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GSNetworking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSNetworking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +44,8 @@
 		77140177C5C3B8F1677F1E01 /* Pods_GSNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5831D0B24AB2D2A88EF4CBC /* Pods-GSNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSNetworking_Example.release.xcconfig"; path = "Target Support Files/Pods-GSNetworking_Example/Pods-GSNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B6AFCA64E5C626FB575F4691 /* Pods-GSNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSNetworking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GSNetworking_Tests/Pods-GSNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC4BF570E9F93506C384CF96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BFA4B6671A5E14E104F7443C /* GSNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GSNetworking.podspec; path = ../GSNetworking.podspec; sourceTree = "<group>"; };
+		BC4BF570E9F93506C384CF96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BFA4B6671A5E14E104F7443C /* GSNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GSNetworking.podspec; path = ../GSNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F5893766853B4FE1F531EC5D /* Pods-GSNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSNetworking_Example.debug.xcconfig"; path = "Target Support Files/Pods-GSNetworking_Example/Pods-GSNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				B6AFCA64E5C626FB575F4691 /* Pods-GSNetworking_Tests.debug.xcconfig */,
 				4D3DA935D4C7D7E8B573B8F8 /* Pods-GSNetworking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
